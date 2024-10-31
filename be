@@ -17,7 +17,7 @@ xkb_symbols "basic" {
     key <AE08>	{ [ 8,          asterisk,        multiply,    oneeighth    ]	};
     key <AE09>	{ [ 9,          parenleft,       ccedilla,    oneninth     ]	};
     key <AE10>	{ [ 0,          parenright,      agrave,      U221A        ]	};
-    key <AE11>	{ [ minus,      underscore,      infinity,    U222B        ]	};
+    key <AE11>	{ [ minus,      underscore,      dead_macron,    infinity        ]	};
     key <AE12>	{ [ equal,      plus,            plusminus,   notequal      ]	};
 
     key <AD01>	{ [ q,            Q,           Greek_omega,     Greek_OMEGA ]	};
@@ -32,7 +32,7 @@ xkb_symbols "basic" {
     key <AD10>  { [ p,		  P,		Greek_pi,	 Greek_PI    ]  };
     key <AD11>	{ [ bracketleft,  braceleft,   dead_circumflex, dead_cedilla]  };
     key <AD12>	{ [ bracketright, braceright,  dead_diaeresis,  dead_macron ]	};
-    key <BKSL>	{ [ backslash,    bar,         notsign,         dead_breve  ]	};
+    key <BKSL>	{ [ backslash,    bar,         dead_grave,         dead_breve  ]	};
 	
     key <AC01>	{ [ a,            A,           adiaeresis,      Adiaeresis  ]	};
     key <AC02>  { [ s,		  S,	        ssharp,          ssharp      ]  };
@@ -50,13 +50,13 @@ xkb_symbols "basic" {
     key <AB01>	{ [ z,            Z,           ae,     	       AE 	            ] };
     key <AB02>  { [x,		  X,		oe,		       OE                  ] };
     key <AB03>  { [c,		  C,		copyright,	       registered          ] };
-    key <AB04>  { [v,		  V,		trademark,            trademark            ] };
+    key <AB04>  { [v,		  V,		trademark,            dead_breve            ] };
     key <AB05>  { [b,		  B,		leftdoublequotemark,  leftsinglequotemark  ] };
     key <AB06>  { [n,		  N,		rightdoublequotemark, rightsinglequotemark ] };
     key <AB07>	{ [ m,            M,           Greek_mu,              Greek_MU             ] };
     key <AB08>	{ [ comma,        less,        guillemotleft,         periodcentered       ] };
     key <AB09>	{ [ period,       greater,     guillemotright,       ellipsis             ] };
-    key <AB10>	{ [ slash,        question,    questiondown,          dead_abovedot        ] };
+    key <AB10>	{ [ slash,        question,    dead_acute,          questiondown        ] };
     key <LSGT>  { [ less,         greater,     backslash,             backslash           ] };
 
     include "level3(ralt_switch)"
