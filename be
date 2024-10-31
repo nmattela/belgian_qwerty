@@ -50,7 +50,7 @@ xkb_symbols "basic" {
     key <AB01>	{ [ z,            Z,           ae,     	       AE 	            ] };
     key <AB02>  { [x,		  X,		oe,		       OE                  ] };
     key <AB03>  { [c,		  C,		copyright,	       registered          ] };
-    key <AB04>  { [v,		  V,		trademark,            dead_breve            ] };
+    key <AB04>  { [v,		  V,		dead_breve,            trademark            ] };
     key <AB05>  { [b,		  B,		leftdoublequotemark,  leftsinglequotemark  ] };
     key <AB06>  { [n,		  N,		rightdoublequotemark, rightsinglequotemark ] };
     key <AB07>	{ [ m,            M,           Greek_mu,              Greek_MU             ] };
